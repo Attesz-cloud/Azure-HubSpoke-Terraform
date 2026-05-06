@@ -35,12 +35,12 @@ Visual representation of the Hub-and-Spoke structure and peering.
 
 2. Firewall Validation (Allowed vs. Blocked)
 ![Firewall Test 1](Allowed.png)
-![Firewall Test 2](ScriptFiltering.png)
+![Firewall Test 2](Blocked.png)
 Proof of the "Strict Filtering" policy. Google is accessible, while unauthorized sites (Facebook) are blocked.
 
-### 3. Private Link Verification
-![Private Link Test](images/YOUR_PRIVATE_IP_IMAGE_NAME.jpg)
-*The `host` command confirms that the Storage Account is accessed via a private internal IP (10.1.1.5).*
+3. Private Link Verification
+![Private Link Test](InternalIPproof.png)
+The "host" command confirms that the Storage Account is accessed via a private internal IP ("10.1.1.5").
 
  Tech Stack:
 - IaC: Terraform
